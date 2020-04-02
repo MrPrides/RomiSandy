@@ -1,0 +1,59 @@
+
+
+body{
+    background-image: url(/asset/pattern.jpg);
+    font-family: 'Slabo 27px';
+}
+
+header{
+    position: sticky;
+    background-color: white;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+
+}
+#header{
+    position: sticky;
+    position: -webkit-sticky;
+}
+img{
+        cursor: pointer;
+}
+
+li{
+   
+    display: inline-block;
+    padding: 0px 20px;
+}
+li a{
+    
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+    color: #0088a9;
+}
+
+section{
+    width: 80%;
+    background-color: white;
+    margin: 20px auto auto;
+    padding: 20px;
+}
+article{
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+  
+  }
